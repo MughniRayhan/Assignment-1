@@ -89,7 +89,7 @@ nav {
 }
 
 /* vision of the future section */
-.vision-of-future {
+section {
   width: 1280px;
   margin: 0px auto;
   margin-top: 60px;
@@ -196,4 +196,64 @@ nav {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.8);
   position: relative;
+}
+.news-conteiner {
+  margin-top: 30px;
+}
+.news {
+  background: white;
+  gap: 24px;
+  display: flex;
+  gap: 24px;
+  border-radius: 24px;
+  margin-top: 30px;
+  padding: 48px;
+}
+.news-content {
+  width: 744px;
+}
+.news-pic img {
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+}
+.news-title {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+.al-img {
+  width: 134px;
+  height: 40px;
+}
+span {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.span-2 {
+  margin-left: 20px;
+}
+.news-description {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.news-btn {
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background: rgba(0, 106, 80, 1);
+  color: white;
+}
+
+.news-btn:hover {
+  padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background: transparent;
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(0, 106, 80, 1);
 }
