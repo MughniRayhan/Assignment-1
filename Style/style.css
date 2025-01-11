@@ -216,7 +216,7 @@ section {
   margin-bottom: 1px;
 }
 .speech-content {
-  background-image: url("/assets/quote-bg.png");
+  background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
   padding: 10px 0px;
 }
