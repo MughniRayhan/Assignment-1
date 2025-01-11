@@ -190,15 +190,20 @@ section {
   border: 1px solid rgba(255, 194, 57, 1);
 }
 
-.yunus-speach {
-  padding: 48px 24px;
+.Speech {
+  padding: 20px 24px;
+  border-radius: 16px;
+  margin-top: 24px;
   background: white;
+}
+.yunus-speach {
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding: 10px 0px;
   border-radius: 16px;
   margin-top: 24px;
 }
-.quoto {
-  position: absolute;
-}
+
 .name {
   font-size: 20px;
   margin-bottom: 1px;
@@ -206,7 +211,6 @@ section {
 .speach-description {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.6);
-  position: relative;
 }
 /* Opinion */
 .opinion-table {
@@ -242,6 +246,7 @@ th {
   width: 152px;
   background: rgba(198, 228, 214, 1);
   border-radius: 4px;
+  font-size: 16px;
 }
 select {
   font-size: 16px;
@@ -252,6 +257,7 @@ select {
 }
 option {
   width: 152px;
+  text-align: center;
 }
 
 /* recent news  */
@@ -338,20 +344,16 @@ span {
   background: white;
   padding: 0px 40px;
   border-radius: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .taka:hover {
-  background: rgba(198, 228, 214, 1);
+  background: rgba(0, 106, 80, 1);
+  color: white;
 }
 .taka-2 {
   background: rgba(198, 228, 214, 1);
-}
-.taka-2:hover {
-  background: white;
-}
-.taka h3 {
-  font-size: 40px;
-  font-weight: bold;
-  color: rgba(14, 14, 14, 0.8);
 }
 
 .donate-input {
@@ -426,4 +428,28 @@ span {
   border: 1px solid rgba(0, 106, 80, 1);
   background: white;
   color: rgba(0, 106, 80, 1);
+}
+
+/* footer */
+footer {
+  background: white;
+  text-align: center;
+  margin-top: 80px;
+  padding: 50px;
+}
+.footer-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+hr {
+  width: 1122px;
+  margin: 32px auto;
+}
+.social-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+footer img {
+  width: 24px;
 }
