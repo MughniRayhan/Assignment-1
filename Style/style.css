@@ -203,22 +203,22 @@ section {
 
 .yunus-speach {
   margin-top: 32px;
-
-  padding: 24px 40px;
+  padding: 14px 36px;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   background: white;
 }
-.yunus-speach img {
+/* .yunus-speach img {
   position: absolute;
-}
+} */
 .name {
   font-size: 20px;
   margin-bottom: 1px;
 }
 .speech-content {
-  position: relative;
-  top: 10px;
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding: 10px 0px;
 }
 .yunus-speach p {
   font-size: 16px;
