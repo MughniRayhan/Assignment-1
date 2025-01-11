@@ -268,13 +268,15 @@ option {
   background: white;
   gap: 24px;
   display: flex;
-  gap: 24px;
+  gap: 32px;
   border-radius: 24px;
   margin-top: 30px;
   padding: 48px;
 }
 .news-content {
   width: 744px;
+  height: 290px;
+  margin-top: -20px;
 }
 .news-pic img {
   width: 408px;
