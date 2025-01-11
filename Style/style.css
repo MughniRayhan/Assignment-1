@@ -201,26 +201,26 @@ section {
   transition-duration: 0.3s;
 }
 
-.Speech {
-  padding: 20px 24px;
-  border-radius: 16px;
-  margin-top: 24px;
-  background: white;
-  border: 1px solid rgba(14, 14, 14, 0.15);
-}
 .yunus-speach {
-  background-image: url("/assets/quote-bg.png");
-  background-repeat: no-repeat;
-  padding: 10px 0px;
-  border-radius: 16px;
-  margin-top: 24px;
-}
+  margin-top: 32px;
 
+  padding: 24px 40px;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: white;
+}
+.yunus-speach img {
+  position: absolute;
+}
 .name {
   font-size: 20px;
   margin-bottom: 1px;
 }
-.speach-description {
+.speech-content {
+  position: relative;
+  top: 10px;
+}
+.yunus-speach p {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.6);
 }
