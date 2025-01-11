@@ -208,6 +208,51 @@ section {
   color: rgba(14, 14, 14, 0.6);
   position: relative;
 }
+/* Opinion */
+.opinion-table {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  margin-top: 24px;
+}
+table {
+  width: 1216px;
+  border-collapse: collapse;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+td {
+  padding: 24px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  font-size: 16px;
+  color: rgba(14, 14, 14, 1);
+  font-weight: 600;
+}
+.select-td {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+th {
+  padding: 24px;
+  background: rgba(198, 228, 214, 1);
+  text-align: left;
+}
+.select {
+  padding: 10px 14px;
+  width: 152px;
+  background: rgba(198, 228, 214, 1);
+  border-radius: 4px;
+}
+select {
+  font-size: 16px;
+  color: rgba(14, 14, 14, 1);
+  background: rgba(198, 228, 214, 1);
+  border: none;
+  outline: none;
+}
+option {
+  width: 152px;
+}
 
 /* recent news  */
 .news-conteiner {
