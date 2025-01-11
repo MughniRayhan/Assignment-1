@@ -34,6 +34,8 @@ nav {
   background: rgba(0, 106, 80, 1);
   color: rgba(255, 255, 255, 1);
   border-radius: 8px;
+  transition: all;
+  transition-duration: 0.3s;
 }
 
 /* banner */
@@ -81,6 +83,8 @@ nav {
   color: rgba(0, 106, 80, 1);
   background: transparent;
   border-radius: 8px;
+  transition: all;
+  transition-duration: 0.3s;
 }
 
 .banner-image {
@@ -98,6 +102,7 @@ nav {
   border-radius: 16px;
   padding: 24px;
   width: 302px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 /* vision of the future section */
 section {
@@ -170,6 +175,8 @@ section {
   background: transparent;
   color: rgba(84, 144, 245, 1);
   border: 1px solid rgba(84, 144, 245, 1);
+  transition: all;
+  transition-duration: 0.3s;
 }
 .btn-2-bg {
   background: rgba(9, 161, 92, 1);
@@ -179,6 +186,8 @@ section {
   background: transparent;
   color: rgba(9, 161, 92, 1);
   border: 1px solid rgba(9, 161, 92, 1);
+  transition: all;
+  transition-duration: 0.3s;
 }
 .btn-3-bg {
   background: rgba(255, 194, 57, 1);
@@ -188,6 +197,8 @@ section {
   background: transparent;
   color: rgba(255, 194, 57, 1);
   border: 1px solid rgba(255, 194, 57, 1);
+  transition: all;
+  transition-duration: 0.3s;
 }
 
 .Speech {
@@ -195,6 +206,7 @@ section {
   border-radius: 16px;
   margin-top: 24px;
   background: white;
+  border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .yunus-speach {
   background-image: url("/assets/quote-bg.png");
@@ -322,6 +334,8 @@ span {
   background: transparent;
   color: rgba(0, 106, 80, 1);
   border: 1px solid rgba(0, 106, 80, 1);
+  transition: all;
+  transition-duration: 0.3s;
 }
 
 /* Donate For Bangladesh */
@@ -353,6 +367,8 @@ span {
 .taka:hover {
   background: rgba(0, 106, 80, 1);
   color: white;
+  transition: all;
+  transition-duration: 0.2s;
 }
 .taka-2 {
   background: rgba(198, 228, 214, 1);
@@ -379,14 +395,11 @@ span {
 }
 
 .donate-btn:hover {
-  padding: 17px 34px;
-  border-radius: 8px;
-  border: none;
-  font-size: 18px;
-  font-weight: 700;
   background: transparent;
   color: rgba(0, 106, 80, 1);
   border: 1px solid rgba(0, 106, 80, 1);
+  transition: all;
+  transition-duration: 0.3s;
 }
 
 /* newsletter */
@@ -430,6 +443,8 @@ span {
   border: 1px solid rgba(0, 106, 80, 1);
   background: white;
   color: rgba(0, 106, 80, 1);
+  transition: all;
+  transition-duration: 0.2s;
 }
 
 /* footer */
