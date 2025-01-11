@@ -92,7 +92,7 @@ nav {
 section {
   width: 1280px;
   margin: 0px auto;
-  margin-top: 60px;
+  margin-top: 80px;
 }
 
 .section-title {
@@ -197,6 +197,8 @@ section {
   color: rgba(14, 14, 14, 0.8);
   position: relative;
 }
+
+/* recent news  */
 .news-conteiner {
   margin-top: 30px;
 }
@@ -249,6 +251,74 @@ span {
 
 .news-btn:hover {
   padding: 13px 26px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background: transparent;
+  color: rgba(0, 106, 80, 1);
+  border: 1px solid rgba(0, 106, 80, 1);
+}
+
+/* Donate For Bangladesh */
+
+.donate {
+  text-align: center;
+}
+.donate-description {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.cards-taka {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.taka {
+  background: white;
+  padding: 0px 40px;
+  border-radius: 16px;
+}
+.taka:hover {
+  background: rgba(198, 228, 214, 1);
+}
+.taka-2 {
+  background: rgba(198, 228, 214, 1);
+}
+.taka-2:hover {
+  background: white;
+}
+.taka h3 {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.donate-input {
+  padding: 20px 40px;
+  width: 1000px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: normal;
+  border: none;
+  margin-bottom: 32px;
+}
+.donate-btn {
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background: rgba(0, 106, 80, 1);
+  color: white;
+}
+
+.donate-btn:hover {
+  padding: 17px 34px;
   border-radius: 8px;
   border: none;
   font-size: 18px;
